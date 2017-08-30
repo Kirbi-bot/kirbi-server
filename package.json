@@ -1,0 +1,36 @@
+{
+    "name": "kirbi-server",
+    "description": "adds the !servers command to Kirbi, along with the ability to list out specific server info",
+    "version": "0.1.0",
+    "license": "Apache-2.0",
+    "readme": "README.md",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Richardson-Media-House/kirbi-server.git"
+    },
+    "author": "Nate Richardson <hello@naterichardson.com> (https://naterichardson.com)",
+    "contributors": [
+      "Matt Carroll <admin@develogix.com> (https://develogix.com)",
+      "Joseph Moran III <joseph.moraniii@gmail.com> (https://josephmoran.co)"
+    ],
+    "main": "server.js",
+    "dependencies": {},
+    "devDependencies": {
+      "xo": "^0.18.2"
+    },
+    "xo": {
+      "rules": {
+        "linebreak-style": [
+          "error",
+          "windows"
+        ],
+        "no-prototype-builtins": "warn",
+        "radix": "warn",
+        "guard-for-in": "warn"
+      }
+    },
+    "scripts": {
+      "test": "xo"
+    }
+  }
+  
