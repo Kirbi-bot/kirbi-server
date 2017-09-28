@@ -1,4 +1,4 @@
-module.exports = function (Kirbi) {
+module.exports = Kirbi => {
 	const servers = Kirbi.getJsonObject('/config/servers.json');
 	return {
 		commands: [
