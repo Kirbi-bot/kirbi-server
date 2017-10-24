@@ -11,7 +11,7 @@ module.exports = Kirbi => {
 					cb({
 						embed: {
 							title: `${Kirbi.Config.discord.serverName} Servers`,
-							description: servers.map(server => server.key).join('\n'),
+							description: servers.map(server => server.key).sort().join('\n'),
 							color: Kirbi.Config.discord.defaultEmbedColor
 						}
 					}, msg);
